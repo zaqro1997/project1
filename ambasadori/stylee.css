@@ -4,6 +4,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100%;
+  animation: rotate 500ms linear infinite;
+}
+html {
+  animation: color 2s linear infinite;
 }
 
 .tavi {
@@ -137,4 +141,14 @@ a {
     transform: rotate(360deg);
   }
   
+}
+
+@keyframes color {
+    0% {
+        background-color: red;
+      }
+    
+    100% {
+      background-color: blue;
+    }
 }
