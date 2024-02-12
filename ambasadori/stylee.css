@@ -46,9 +46,7 @@ a {
 .avtorizacia {
   color: aliceblue;
   font-size: 50px;
-
-  top: 50%;
-  position: absolute;
+  text-align: center;
 }
 .studenti {
   font-size: 25px;
@@ -69,9 +67,9 @@ a {
 }
 .shesvla {
   gap: 30px;
-  margin-top: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .background {
@@ -81,9 +79,11 @@ a {
   height: 100%;
   background-size: auto;
   margin: 0 auto;
+  margin-top: 25px;
   background-image: url("suratebi/bg.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .shenicu {
   text-align: center;
@@ -96,4 +96,6 @@ a {
 }
 .container {
   width: 90%;
+  margin: auto;
+  height: 355px;
 }
