@@ -48,6 +48,12 @@ img {
   display: flex;
   gap: 10px;
 }
+
+.names input {
+  flex: 1;
+}
+
+
 .email {
   border: 1px solid #ccd0d5;
   font-size: 15px;
@@ -102,21 +108,37 @@ img {
   font-family: "Freight Sans Bold", Helvetica, Arial, sans-serif !important;
 }
 .labels {
-  gap: 30px;
   font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
   align-items: center;
   display: flex;
-  padding: 10px;
   background-color: #fff;
   height: 50px;
+  gap: 8px;
+  margin-top: 8px;
 }
 
 .radio {
+  flex: 1;
   border: 1px solid #5e5e5e;
   border-radius: 4px;
   padding: 8px;
 }
 
+.other {
+  display: flex;
+  flex-direction: column;
+}
+
 input {
   padding: 0 8px;
+}
+
+.birthday-container {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.birthday-container select {
+  flex: 1;
 }
