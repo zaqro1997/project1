@@ -4,7 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100%;
-  animation: rotate 500ms linear infinite;
+  animation: rotate 2000ms linear infinite;
 }
 html {
   animation: color 2s linear infinite;
@@ -140,15 +140,14 @@ a {
   100% {
     transform: rotate(360deg);
   }
-  
 }
 
 @keyframes color {
-    0% {
-        background-color: red;
-      }
-    
-    100% {
-      background-color: blue;
-    }
+  0% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: blue;
+  }
 }
